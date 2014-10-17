@@ -1,4 +1,4 @@
-londonycp.github.io
+lycp.github.io
 ===================
 
 LYCP Website
