@@ -6,11 +6,11 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html class=""> <!--<![endif]-->
   <head>
   	<meta charset="utf-8"/>
-  	<title>LYCP | London Young Charity Professionals</title>
+  	<title>Events | LYCP | London Young Charity Professionals</title>
   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no"/>
-  	<meta name="title" content="LYCP | London Young Charity Professionals" />
-  	<meta name="description" content="LYCP (London Young Charity Professionals) is a membership body. We currently organise monthly First Thursday networking drinks and in the future will offer opportunities to hear from expert speakers, attend training sessions, workshops and other events. A wide variety of attendees are welcome to networking events, with no joining requirements apart from classing yourself as a London-based 'Young Charity Professional'." />
+  	<meta name="title" content="Events | LYCP | London Young Charity Professionals" />
+  	<meta name="description" content="LYCP Events: LYCP (London Young Charity Professionals) is a membership body. We currently organise monthly First Thursday networking drinks and in the future will offer opportunities to hear from expert speakers, attend training sessions, workshops and other events. A wide variety of attendees are welcome to networking events, with no joining requirements apart from classing yourself as a London-based 'Young Charity Professional'." />
     <meta name="keywords" content="LYCP, london, young, charity, third sector, professionals, london young charity professionals, first thursday, networking, networking drinks, charity speakers, training sessions, workshops, socialising, friendly, meetup"/>
   	<meta content="http://www.lycp.org.uk" property="og:url" />
   	<meta content="http://www.lycp.org.uk/img/lycp-og-logo.png" property="og:image" />
@@ -31,6 +31,8 @@
     <script type="text/javascript" src="/js/functions.js"></script>
 
     <!-- NONE CORE ITEMS -->
+    <script type="text/javascript" src="/js/lib/moment.min.js"></script>
+    <script type="text/javascript" src="https://evbdn.eventbrite.com/s3-s3/static/js/platform/Eventbrite.jquery.js"></script>
   </head>
 	<body>
     <!-- NO JS MESSAGE -->
@@ -38,7 +40,7 @@
       <div id="no-script">
         <span>You appear to be using a typewriter to access the site! The site will only work if you have Javascript turned on!</span> 
       </div>
-    </noscript>
+    </noscript>  
     <!-- HEADER -->
     <section id="header" data-include="/common/header.html"></section>
     <!-- NAVIGATION -->
@@ -46,24 +48,17 @@
     <div id="main" class="container">
       <!--CONTENT -->
       <section id="content" class="twelve columns alpha clearfix">
-        <!-- HOMEPAGE CONTENT -->
-        <h1>Welcome to LYCP</h1>
-        <h2>London Young Charity Professionals</h2>
-        <p><strong>Who are we?</strong> London Young Charity Professionals (LYCP) is a networking group for young professionals in the charity sector in and around the Big Smoke.</p>
-        <p><strong>You can find out when and where the next monthly drinks is by looking at the 'next event' tab to the right and also joining our mailing list which will ensure you get timely reminders for upcoming drinks events.</strong></p>
-        <hr/>
-        <!-- LONDON GRUMBLR -->
-        <h2>A London Grumblr we love</h2>
-        <div id="grumblr">
+        <!-- EVENTS CONTENT -->
+        <h1>Events</h1>
+        <p><strong>Next Event:</strong> March First Thursday Drinks<br/>Thursday 5th March from 6:30pm @ <a href="https://www.google.co.uk/maps/place/Founders+Arms/@51.508688,-0.101784,17z/data=!4m6!1m3!3m2!1s0x487604aeecc63e35:0xf0995e850551e1bc!2sFounders+Arms!3m1!1s0x487604aeecc63e35:0xf0995e850551e1bc" target="_blank" title="Google Map showing The Founders Arms location">The Founders Arms</a>, Bankside</p>
+        <h2>Special Events</h2>
+        <div id="special-events-list">
           <div class="spinner"></div>
         </div>
-        <script async type="text/javascript" id="grumblr-loader" data-postid="110713706351" src="/js/grumblr.js"></script>
-        <hr/>
-        <!-- Free Text -->
-        <h2>What do you think defines success?</h2>
-        <p>
-          <a class="image-link" href="http://theinspirationals.eventbrite.co.uk/" target="_blank"><img src="/img/churchill-quote.png"/></a>
-        </p>
+        <script async type="text/javascript" src="/js/eventbrite.js"></script>
+        <h2>Regular events</h2>
+        <p>LYCP hosts a free-to-attend drinks event every first Thursday of the month at a central London location, for relaxed networking and socialising.</p>
+        <p>LYCP First Thursday drinks are free to attend and don't have any set introductions, speeches or games to take part in. We don't actively encourage card swapping and 'enforced networking', leaving it up to you to share details. LYCP is more about socialising and having a chance to meet like-minded people working in and around London in a friendly and non-pressured environment. A wide variety of attendees are welcome to networking events, with no joining requirements apart from classing yourself as a London-based 'Young Charity Professional'.</p>
       </section>
       <!-- SIDEBAR -->
       <section id="sidebar" class="four columns omega clearfix" data-include="/common/sidebar.html"></section>
