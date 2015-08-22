@@ -463,12 +463,56 @@
 	/* EVENTS */
 	#special-events-list {}
 	#special-events-list .special-event {margin-bottom:20px;}
+	#special-events-list .special-event .event-intro {margin-bottom:20px;}
 	#special-events-list .special-event .event-intro .buttoncontainer {text-align: right;}
+	#special-events-list .special-event .event-intro .imagecontainer {text-align: right;}
+	#special-events-list .special-event .event-intro .imagecontainer a,
+	#special-events-list .special-event .event-intro .imagecontainer a:hover {border:0;}	
 	#special-events-list .special-event .description {
 		border:1px solid #ddd;
 		width:94%;
 		padding:20px 3% 0px 3%;
 	}
+
+	/* PAST EVENTS */
+	#active-past-event {}
+	#active-past-event.activated {
+		background:url('/img/spinner.gif') no-repeat center 10px;
+		margin-bottom:20px;
+		height:450px;
+	}
+
+	#past-events-list {}
+	#past-events-list .past-event {
+		margin-bottom:20px; 
+		height:300px;
+		background-position: top center;
+		background-size:auto 100%;
+		background-repeat: no-repeat;
+		position:relative;
+		cursor:pointer;
+		border-radius:5px;
+	}
+	#past-events-list .past-event .overlay {
+		display:block;
+		height:110px;
+		color:#fff;
+		padding:160px 10px 10px 10px;
+		margin:5px 5px 5px 5px;
+		border:5px solid transparent;
+		border-radius:5px;
+		-webkit-transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		transition: all 0.2s linear;
+	}
+	#past-events-list .past-event:hover .overlay,
+	#past-events-list .past-event.active .overlay
+	{ border:5px solid #fff;}
+
+	#past-events-list .past-event .overlay	span.title {font-weight: bold; font-size: 14px;}
+	#past-events-list .past-event .overlay	span.date {font-weight: bold; font-size: 12px;}
+
 
 	/* SIGNUP */
 	#signup-form p.status {font-weight: bold;}
