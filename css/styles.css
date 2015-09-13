@@ -430,7 +430,7 @@
 	#twitter-feed ul li .user a:hover {border-bottom:none;}
 	#twitter-feed ul li .user a img {float:left; display:block;}
 	#twitter-feed ul li .user a span {display:block; text-align:right;}
-	#twitter-feed ul li .tweet {font-size:12px; line-height:18px; margin-bottom:0px; padding-bottom:10px;}
+	#twitter-feed ul li .tweet {font-size:12px; line-height:18px; margin-bottom:0px; padding-bottom:10px; word-wrap:break-word;}
 	#twitter-feed ul li .tweet:before {content:'\00201C'; font-size: 20px; line-height:18px;} 
 	#twitter-feed ul li .tweet:after {content:'\00201D'; font-size: 20px; line-height:18px;}
 
